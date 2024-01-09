@@ -12,7 +12,7 @@ public class PayRoll {
     {
         float grossPay = payRate * workhours;
         float netPay = grossPay - (grossPay * 0.15f);
-        System.out.printf("Gross Pay is %20.2f \n net pay is %20.2f "+grossPay,netPay);
+        System.out.printf("Gross Pay is %20.2f \n net pay is %20.2f ",grossPay,netPay);
     }
 
     public static void main(String[] args) {
