@@ -7,6 +7,12 @@ class Box4{
     {
         return width * height * depth;
     }
+    void setDim(double w, double h, double d)
+    {
+        width = w;
+        height = h;
+        depth = d;
+    }
 }
 public class BoxDemo4 {
     public static void main(String[] args) {
@@ -21,6 +27,11 @@ public class BoxDemo4 {
         double vol = box41.volumn();
         System.out.println("Box41 volumn is "+vol);
         vol = box42.volumn();
-        System.out.println("Box41 volumn is "+vol);
-    }
+        System.out.println("Box42 volumn is "+vol);
+        // testing setDim method void parameter
+        Box4 box43 = new Box4();
+        box43.setDim(5.5,6,7);
+        vol = box43.volumn();
+        System.out.println("Box43 volumn is "+vol);
+    }// add main
 }
