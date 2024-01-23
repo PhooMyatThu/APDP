@@ -1,9 +1,9 @@
-package week3;
+package week3.Liskov;
 
-public class Rectangle extends Quadrangle{
+public class Rectangle extends Quadrangle {
     float widht;
     float height;
-    public  Rectangle(float w, float h)
+    public Rectangle(float w, float h)
     {
         widht = w;
         height = h;

@@ -1,4 +1,4 @@
-package week3;
+package week3.Liskov;
 
 public class LiskovTest {
     public static void main(String[] args) {
